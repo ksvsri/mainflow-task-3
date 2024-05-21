@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="task3-1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive Webpage</h1>
+    
+    <!-- Interactive Menu -->
+    <ul class="menu">
+      <li class="menu-item" id="formTypeMenu" onclick="toggleSubmenu()">SELECT FORM TYPE</li>
+      <ul class="submenu" id="submenu">
+        <li>
+          <button class="submenu-button" onclick="selectFormType('Student')">Student</button>
+        </li>
+        <li>
+          <button class="submenu-button" onclick="selectFormType('Employee')">Employee</button>
+        </li>
+      </ul>
+    </ul>
+    
+    <!-- Form with Validation -->
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <span id="nameError" class="error"></span><br>
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <span id="emailError" class="error"></span><br>
+    
+      <button type="submit">Submit</button>
+    </form>
+    
+    <!-- Dynamic Content Update -->
+    <div id="content"></div>
+  </div>
+
+  <script src="task3-2.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .menu-item {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .submenu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .submenu-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .submenu-button:hover {
+    background-color: #1d0fe3;
+  }
+  .error {
+    color: red;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #218838;
+  }
+  #content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e2e3e5;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
